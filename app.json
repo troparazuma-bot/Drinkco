@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Drinkco",
+    "slug": "drinkco",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/1793096927692.jpg",
+    "scheme": "drinkco",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/1793096927692.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser",
+      "expo-splash-screen",
+      "expo-status-bar",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Drinkco использует камеру, чтобы сфотографировать товар."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
